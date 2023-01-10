@@ -226,7 +226,10 @@ public class PdfPKCS7 {
         algorithmNames.put("1.3.36.3.3.1.3", "RSA");
         algorithmNames.put("1.3.36.3.3.1.2", "RSA");
         algorithmNames.put("1.3.36.3.3.1.4", "RSA");
-        algorithmNames.put(ID_ECDSA, "ECDSA");
+        algorithmNames.put("1.2.840.10045.2.1", "ECDSA");
+        algorithmNames.put("1.2.840.10045.4.3.1", "ECDSA");
+        algorithmNames.put("1.2.840.10045.4.3.2", "ECDSA");
+        algorithmNames.put("1.2.840.10045.4.3.3", "ECDSA");
 
         allowedDigests.put("MD5", "1.2.840.113549.2.5");
         allowedDigests.put("MD2", "1.2.840.113549.2.2");
